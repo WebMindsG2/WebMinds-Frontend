@@ -1,0 +1,77 @@
+
+{
+  "hosts": [
+    {
+      "id": 1,
+      "first_name": "John",
+      "last_name": "Doe",
+      "phone_number": "123456789",
+      "email": "john.doe@example.com",
+      "description": "This is a description for Host 1",
+      "hourly_rate": 20,
+      "daily_rate": 150,
+      "district": "District 1",
+      "image": "https://example.com/images/host1.jpg"
+    },
+    {
+      "id": 2,
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "phone_number": "987654321",
+      "email": "jane.smith@example.com",
+      "description": "This is a description for Host 2",
+      "hourly_rate": 25,
+      "daily_rate": 180,
+      "district": "District 2",
+      "image": "https://example.com/images/host2.jpg"
+    },
+    {
+      "id": 3,
+      "first_name": "Michael",
+      "last_name": "Johnson",
+      "phone_number": "555555555",
+      "email": "michael.johnson@example.com",
+      "description": "This is a description for Host 3",
+      "hourly_rate": 18,
+      "daily_rate": 120,
+      "district": "District 3",
+      "image": "https://example.com/images/host3.jpg"
+    },
+    {
+      "id": 4,
+      "first_name": "Emily",
+      "last_name": "Davis",
+      "phone_number": "333333333",
+      "email": "emily.davis@example.com",
+      "description": "This is a description for Host 4",
+      "hourly_rate": 22,
+      "daily_rate": 160,
+      "district": "District 4",
+      "image": "https://example.com/images/host4.jpg"
+    },
+    {
+      "id": 5,
+      "first_name": "David",
+      "last_name": "Taylor",
+      "phone_number": "444444444",
+      "email": "david.taylor@example.com",
+      "description": "This is a description for Host 5",
+      "hourly_rate": 19,
+      "daily_rate": 140,
+      "district": "District 5",
+      "image": "https://example.com/images/host5.jpg"
+    },
+    {
+      "id": 6,
+      "first_name": "Olivia",
+      "last_name": "Brown",
+      "phone_number": "666666666",
+      "email": "olivia.brown@example.com",
+      "description": "This is a description for Host 6",
+      "hourly_rate": 23,
+      "daily_rate": 170,
+      "district": "District 6",
+      "image": "https://example.com/images/host6.jpg"
+    }
+  ]
+}
