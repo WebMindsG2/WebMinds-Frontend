@@ -1,7 +1,7 @@
 <template>
   <div class="searchParking">
 
-    <div class="p-grid">
+    <div >
       <div
           v-for="host in hosts"
           :key="host.id"
@@ -13,8 +13,11 @@
           </template>
           <template #title> {{ host.first_name }} {{ host.last_name }} </template>
           <template #content>
-            <p><b>Hourly Rate:</b> ${{ host.hourly_rate }}</p>
-            <p><b>Daily Rate:</b> ${{ host.daily_rate }}</p>
+            <p style="font-size: 20px;"><b>Tarifa por hora:</b>  S/{{ host.hourly_rate }}</p>
+            <p style="font-size: 20px;"><b>Tarifa por dia:</b>   S/{{ host.daily_rate }}</p>
+          </template>
+          <template #footer>
+            <pv-button label = "Ver mas"/>
           </template>
         </pv-card>
       </div>
@@ -32,6 +35,8 @@ import {Host} from "../../learning/model/host.entity.js";
 
 export default {
   name: "searchParking",
+
+
   title: "SearchParking",
   data(){
     return{
@@ -69,13 +74,13 @@ export default {
   border-radius: 10px; /* Aplica esquinas redondeadas */
   padding: 20px; /* Ajusta el relleno interno de la tarjeta */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra */
-  width: 450px; /* Ancho de la tarjeta */
-  height: 600px; /* Alto de la tarjeta */
+  width: 400px; /* Ancho de la tarjeta */
+  height: 650px; /* Alto de la tarjeta */
 }
 
 
 .images {
-  width: 400px; /* Ancho de la imagen al 100% del contenedor */
-  height: 400px; /* Altura automática para mantener la proporción */
+  width: 350px; /* Ancho de la imagen al 100% del contenedor */
+  height: 350px; /* Altura automática para mantener la proporción */
 }
 </style>
