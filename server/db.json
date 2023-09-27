@@ -11,7 +11,7 @@
       "hourly_rate": 20,
       "daily_rate": 150,
       "district": "District 1",
-      "image": "https://example.com/images/host1.jpg"
+      "image": "https://img.freepik.com/foto-gratis/chico-guapo-seguro-posando-contra-pared-blanca_176420-32936.jpg?w=360"
     },
     {
       "id": 2,
@@ -23,7 +23,7 @@
       "hourly_rate": 25,
       "daily_rate": 180,
       "district": "District 2",
-      "image": "https://example.com/images/host2.jpg"
+      "image": "https://img.freepik.com/foto-gratis/retrato-mujer-caucasica-sonriendo_53876-24998.jpg"
     },
     {
       "id": 3,
@@ -35,7 +35,7 @@
       "hourly_rate": 18,
       "daily_rate": 120,
       "district": "District 3",
-      "image": "https://example.com/images/host3.jpg"
+      "image": "https://img.freepik.com/fotos-premium/hombre-guapo-joven-barba-sobre-aislado-manteniendo-brazos-cruzados-posicion-frontal_1368-132662.jpg"
     },
     {
       "id": 4,
@@ -47,7 +47,7 @@
       "hourly_rate": 22,
       "daily_rate": 160,
       "district": "District 4",
-      "image": "https://example.com/images/host4.jpg"
+      "image": "https://img.freepik.com/fotos-premium/captivatingly-real-photorealistic-portrait-of-spanish-woman-embodying-timeless-beauty-at-40_983420-22610.jpg"
     },
     {
       "id": 5,
@@ -59,7 +59,7 @@
       "hourly_rate": 19,
       "daily_rate": 140,
       "district": "District 5",
-      "image": "https://example.com/images/host5.jpg"
+      "image": "https://previews.123rf.com/images/goodluz/goodluz1110/goodluz111000791/10979076-retrato-de-guapo-de-40-a%C3%B1os-de-edad-hombre.jpg"
     },
     {
       "id": 6,
@@ -71,7 +71,7 @@
       "hourly_rate": 23,
       "daily_rate": 170,
       "district": "District 6",
-      "image": "https://example.com/images/host6.jpg"
+      "image": "https://img.freepik.com/foto-gratis/retrato-mujer-negocios-confiada-cara-sonriente_53876-139590.jpg"
     }
   ]
 }

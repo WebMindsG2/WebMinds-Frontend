@@ -6,7 +6,7 @@ export class HostsApiService{
 
     //Principal
     getAll(){
-        return http.get('/host');
+        return http.get('/hosts');
     }
     findByDistrict(title){
         return http.get(`/hosts?title=${title}`);
@@ -15,7 +15,7 @@ export class HostsApiService{
 
 
     getById(id){
-        return http.get(`/host/${id}`);
+        return http.get(`/hosts/${id}`);
     }
 
     create(hostResource){
